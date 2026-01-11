@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --color-navy-blue: #003366;
+  --color-brand-orange: #FF6600;
+  --color-support-purple: #6B46C1;
+  --font-family-sans: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
